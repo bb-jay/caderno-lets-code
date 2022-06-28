@@ -1,4 +1,4 @@
-package br.com.letscode;
+package br.com.letscode.Exercicios;
 
 public class E3Q1 {
 	public static void main(String[] args) {
