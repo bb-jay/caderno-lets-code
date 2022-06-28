@@ -4,7 +4,7 @@ package br.com.letscode;
  * Hello world!
  *
  */
-public class Exercicio1 {
+public class E1Q1 {
     public static void main(String[] args) {
         String userName = "José";
         double balance = 6569.28;
