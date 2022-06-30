@@ -1,10 +1,10 @@
-package br.com.letscode.Exercicios;
+package br.com.letscode.Exercicios.VariaveisESaida;
 
 /**
  * Hello world!
  *
  */
-public class E1Q1 {
+public class Questao1 {
     public static void main(String[] args) {
         String userName = "José";
         double balance = 6569.28;

@@ -1,6 +1,6 @@
-package br.com.letscode.Exercicios;
+package br.com.letscode.Exercicios.ControleDeFluxo;
 
-public class E3Q2 {
+public class Questao2 {
 	public static void main(String[] args) {
 		accountType("PERSONAL");
 		accountType("Personal");

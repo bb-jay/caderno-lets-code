@@ -1,6 +1,6 @@
-package br.com.letscode.Exercicios;
+package br.com.letscode.Exercicios.EstruturasDeRepeticao;
 
-public class E2Q1 {
+public class Questao1 {
 	public static void main(String[] args) {
 		sumEvenNumbers(2, 5);
 		sumEvenNumbers(3, 4);

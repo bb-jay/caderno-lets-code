@@ -1,6 +1,6 @@
-package br.com.letscode.Exercicios;
+package br.com.letscode.Exercicios.ControleDeFluxo;
 
-public class E3Q1 {
+public class Questao1 {
 	public static void main(String[] args) {
 		System.out.println(higher(2, 3));
 		System.out.println(higher(2, 2));
