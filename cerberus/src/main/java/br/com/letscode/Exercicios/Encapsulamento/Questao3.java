@@ -30,6 +30,10 @@ public class Questao3 {
 			System.out.println(this.titular + " botou " + deposito);
 			saldo = saldo.add(BigDecimal.valueOf(deposito));
 		}
+
+		public int getNumero() {
+			return this.numero;
+		}
 	}
 
 	public static void main(String[] args) {
@@ -40,5 +44,6 @@ public class Questao3 {
 		maria.depositar(ze.sacar(300));
 		maria.sacar(200);
 		maria.sacar(200);
+		ze.getNumero();
 	}
 }
