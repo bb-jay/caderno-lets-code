@@ -1,17 +1,19 @@
 package br.com.letscode.Aulas._20_07_NossaCollection;
 
+import java.util.Arrays;
+
 public class TesteNossaCollection {
 	public static void main(String[] args) {
 		NossaCollection<Integer> ci = new NossaCollection<>();
 		ci.add(1);
-		ci.add(5);
-		ci.add(16);
-		ci.add(1456);
-		ci.add(21);
-		ci.add(9);
+		ci.add(5, 5);
+		ci.add(9, 16);
+		ci.addAll(Arrays.asList(1456,54,56,5465,21));
+		ci.addFirst(21);
+		ci.addFirst(9);
 		ci.add(2);
-		ci.add(2);
-		ci.add(2);
+		ci.addLast(2);
+		ci.addLast(2);
 		ci.add(98);
 		ci.add(551);
 		ci.add(1);
