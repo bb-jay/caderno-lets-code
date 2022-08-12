@@ -4,7 +4,6 @@ public class CarroEsporte extends Carro{
 
 	CarroEsporte(String cor) {
 		super(cor);
-		//TODO Auto-generated constructor stub
 	}
 	
 }
