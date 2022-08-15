@@ -1,4 +1,4 @@
-package br.com.letscode.Aulas._15_07_InterfaceEClasseAbstrata;
+package br.com.letscode.Aulas._15_07.InterfaceEClasseAbstrata;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,6 @@
-package br.com.letscode.Aulas;
+package br.com.letscode.Aulas._11_07;
 
-public class _11_07_Excecoes {
+public class Excecoes {
 
 	public static class UserNotFound extends RuntimeException {
     UserNotFound(String s) {super(s);}

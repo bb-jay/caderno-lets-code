@@ -1,4 +1,4 @@
-package br.com.letscode.Aulas._20_07_NossaCollection;
+package br.com.letscode.Aulas._20_07.NossaCollection;
 
 import java.util.Arrays;
 

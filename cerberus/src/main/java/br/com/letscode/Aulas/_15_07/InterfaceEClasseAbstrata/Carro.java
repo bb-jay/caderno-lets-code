@@ -1,4 +1,4 @@
-package br.com.letscode.Aulas._15_07_InterfaceEClasseAbstrata;
+package br.com.letscode.Aulas._15_07.InterfaceEClasseAbstrata;
 
 public class Carro extends Veiculo implements Buzinavel, Radio {
 
