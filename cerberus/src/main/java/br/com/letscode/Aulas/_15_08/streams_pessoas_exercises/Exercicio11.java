@@ -16,7 +16,7 @@ public class Exercicio11 {
 		BancoDeDados.pegaPessoas()
 				.stream()
 				.collect(Collectors.groupingBy(Pessoa::getUf))
-				.forEach( (uf, lista) -> System.out.printf("%s: %d%n", uf, lista.size()) );;
+				.forEach( (uf, lista) -> System.out.printf("%s: %d%n", uf, lista.size()) );
 
 	}
 

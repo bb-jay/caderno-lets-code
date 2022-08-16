@@ -1,7 +1,5 @@
 package br.com.letscode.Aulas._15_08.streams_pessoas_exercises;
 
-import java.util.Comparator;
-
 public class Exercicio6 {
 
 	/**
@@ -13,7 +11,7 @@ public class Exercicio6 {
 	public static void main(String[] args) {
 		BancoDeDados.pegaPessoas()
 				.stream()
-				.sorted(Comparator.comparing((Pessoa pessoa) -> pessoa.getNome().toUpperCase()))
+				.sorted((p1, p2) -> p1.getNome().compareToIgnoreCase(p2.getNome()))
 				.forEach(System.out::println);
 	}
 }
