@@ -1,5 +1,6 @@
 package br.com.letscode.Aulas._15_08.streams_pessoas_exercises;
 
+import java.util.Comparator;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -18,15 +19,10 @@ public class Exercicio13 {
 
 		BancoDeDados.pegaPessoas()
 				.stream()
-				.collect(Collectors.groupingBy(Pessoa::getUf))
+				.collect(Collectors.groupingBy(Pessoa::getUf, Collectors.summingInt(Pessoa::getFilhos)))
 				.entrySet()
 				.stream()
-				.map(entry -> Map.entry(entry.getKey(), entry.getValue()
-						.stream()
-						.mapToInt(Pessoa::getFilhos)
-						.sum()))
-				.sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
-				.findFirst()
+				.max(Comparator.comparing(Map.Entry::getValue))
 				.ifPresent(entry -> System.out.printf("O estado com mais filhos é: %s. O total de filhos são: %d",
 						entry.getKey(), entry.getValue()));
 
